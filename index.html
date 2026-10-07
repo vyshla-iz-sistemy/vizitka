@@ -15,19 +15,33 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Юлия Пощева",
-  "@id": "https://vyshla-iz-sistemy.github.io/vizitka/#person",
-  "jobTitle": "Создаю инструменты для digital и учу работать с нейросетями",
-  "description": "Юлия Пощева — автор канала «Вышла из системы». Создаю инструменты для digital и учу работать с нейросетями, объясняю сложное простым языком. 23 года в педагогике, в 49 лет ушла в digital с нуля. Автор приложений МедиаПлан Pro и Контент-Мастер.",
-  "url": "https://vyshla-iz-sistemy.github.io/vizitka/",
-  "sameAs": [
-    "https://max.ru/se13911875_bot",
-    "https://max.ru/channel_vyshla_iz_sistemy",
-    "https://vk.com/vyshla_iz_sistemy",
-    "https://vyshla-iz-sistemy.github.io/",
-    "https://vyshla-iz-sistemy.github.io/mediaplan-pro/app.html",
-    "https://vyshla-iz-sistemy.github.io/kontent-master/app.html"
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Юлия Пощева",
+      "@id": "https://vyshla-iz-sistemy.github.io/vizitka/#person",
+      "jobTitle": "Создаю инструменты для digital и учу работать с нейросетями",
+      "description": "Юлия Пощева — автор канала «Вышла из системы». Создаю инструменты для digital и учу работать с нейросетями, объясняю сложное простым языком. 23 года в педагогике, в 49 лет ушла в digital с нуля. Автор приложений МедиаПлан Pro и Контент-Мастер.",
+      "url": "https://vyshla-iz-sistemy.github.io/vizitka/",
+      "sameAs": [
+        "https://max.ru/se13911875_bot",
+        "https://max.ru/channel_vyshla_iz_sistemy",
+        "https://vk.com/vyshla_iz_sistemy",
+        "https://vyshla-iz-sistemy.github.io/",
+        "https://vyshla-iz-sistemy.github.io/mediaplan-pro/app.html",
+        "https://vyshla-iz-sistemy.github.io/kontent-master/app.html"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "name": "Вышла из системы",
+      "@id": "https://vyshla-iz-sistemy.github.io/vizitka/#org",
+      "url": "https://vyshla-iz-sistemy.github.io/vizitka/",
+      "description": "Юлия Пощева — автор канала «Вышла из системы». Создаю инструменты для digital и учу работать с нейросетями, объясняю сложное простым языком. 23 года в педагогике, в 49 лет ушла в digital с нуля. Автор приложений МедиаПлан Pro и Контент-Мастер.",
+      "founder": {
+        "@id": "https://vyshla-iz-sistemy.github.io/vizitka/#person"
+      }
+    }
   ]
 }
 </script>
@@ -171,20 +185,23 @@
   </div>
   <ul class="прилавок">
     <li class="плашка плашка--курс">
+      <span class="плашка__бренд">Вышла из системы</span>
       <h3>Мини-курс по нейросетям</h3>
       <p>9 уроков для начинающих, без технической подготовки</p>
       <div class="ценник"><b>900 ₽</b></div>
     </li>
     <li class="плашка плашка--инструмент плашка--терракота">
       <div class="о-плашке">
-        <h3><a class="плашка__ссылка" href="https://vyshla-iz-sistemy.github.io/mediaplan-pro/app.html" target="_blank" rel="noopener">МедиаПлан Pro<span class="плашка__стрелка" aria-hidden="true">↗</span></a></h3>
+        <span class="плашка__бренд">Вышла из системы</span>
+      <h3><a class="плашка__ссылка" href="https://vyshla-iz-sistemy.github.io/mediaplan-pro/app.html" target="_blank" rel="noopener">МедиаПлан Pro<span class="плашка__стрелка" aria-hidden="true">↗</span></a></h3>
         <p>медиапланирование за 60 секунд: прогноз KPI, структура кампаний, UTM и ИИ-советы</p>
       </div>
       <div class="ценник"><b>от 299 ₽/мес</b><span>первый расчёт бесплатно</span></div>
     </li>
     <li class="плашка плашка--инструмент плашка--янтарь">
       <div class="о-плашке">
-        <h3><a class="плашка__ссылка" href="https://vyshla-iz-sistemy.github.io/kontent-master/app.html" target="_blank" rel="noopener">Контент-Мастер<span class="плашка__стрелка" aria-hidden="true">↗</span></a></h3>
+        <span class="плашка__бренд">Вышла из системы</span>
+      <h3><a class="плашка__ссылка" href="https://vyshla-iz-sistemy.github.io/kontent-master/app.html" target="_blank" rel="noopener">Контент-Мастер<span class="плашка__стрелка" aria-hidden="true">↗</span></a></h3>
         <p>ИИ-инструмент, который знает вашу нишу и голос: посты, хуки, карусели, контент-план на неделю</p>
       </div>
       <div class="ценник"><b>от 299 ₽/мес</b><span>первые генерации бесплатно</span></div>
